@@ -1,0 +1,35 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "WORLD-SETTINGS v1.0-beta",
+        "description": "World settings allow you to control various aspects of your world in a very easy way",
+        "uuid": "c2f26fd0-1717-4044-a3c3-34fb4b536874",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 19, 50 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "66101391-7f2f-48bf-bdc7-eda27600e8e8",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "description": "Javascript module",
+            "type": "script", 
+            "language": "javascript",
+            "uuid": "632fb83b-25bb-4d9e-ae7a-115744b59dd1",
+            "version": [ 0, 0, 1 ],
+            "entry": "main.js"
+        }
+    ],
+    "dependencies": [
+        {
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+    ]
+}
